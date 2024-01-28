@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class FindingNumbers {
     public static void main(String[] args) throws IOException {
-        File file = new File("C:\\Users\\dsdsk\\IdeaProjects\\FindingNumbers\\Numbers.txt");
+        File file = new File("Input yor txt file directory here");
         Scanner num = new Scanner(file);
 
         ArrayList<Integer> find = new ArrayList<>();
